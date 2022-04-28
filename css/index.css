@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 7%;
+}
+header .logo {
+  height: 100%;
+  margin-right: 99px;
+}
+header .logo img {
+  height: 100%;
+}
+header .title {
+  text-align: center;
+}
+header .title h5 {
+  font-weight: 800;
+  font-size: 50px;
+  margin-top: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0 7%;
+  background-color: white;
+}
+nav .container {
+  width: 100%;
+  height: 100px;
+  background-color: wh;
+  border-bottom: 5px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+nav .container .box {
+  width: 150px;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-top-left-radius: 15px 30px;
+  border-bottom-left-radius: 30px 15px;
+  border-top-right-radius: 30px 10px;
+  border-bottom-right-radius: 11px 30px;
+  outline: 2px solid black;
+}
+nav .container .box:hover {
+  width: 160px;
+  height: 53px;
+  box-shadow: 4px 7px 2px 1px rgb(0, 0, 0);
+  margin-top: -3px;
+  margin-left: -10px;
+}
+
+main .card-region {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 7% 0 calc(7% + 70px);
+  justify-content: space-around;
+}
+main .card-region .single-card {
+  width: 20%;
+  height: 250px;
+  border: 4px solid black;
+  margin-right: 90px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  border-top-left-radius: 100px 500px;
+  border-bottom-left-radius: 1000px 130px;
+  border-top-right-radius: 2111px 102px;
+  border-bottom-right-radius: 111px 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .card-region .single-card h3 {
+  font-size: 1.9rem;
+}
+main .card-region .single-card:hover {
+  width: calc(20% + 10px);
+  height: 253px;
+  box-shadow: 10px 13px 2px 1px rgb(0, 0, 0);
+  margin-top: -3px;
+  margin-left: -10px;
+  margin-right: 90px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+main .card-region .single-card:hover > h3 {
+  display: none;
+}
+main .card-region .single-card:hover > .card-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .card-region .single-card .card-info {
+  display: none;
+}/*# sourceMappingURL=index.css.map */

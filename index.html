@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/png-transparent-inside-weather-look-at-weather-weather-text-cloud-presentation.png">
+    <title>Mr Frog's Weather Forecast</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div class="title">
+            <h5>Mr Frog's Weather Forecast</h5>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="box1 box all" onclick="arrange_cities();">全部</div>
+            <div class="box2 box north" onclick="north_click();">北部</div>
+            <!-- 北部 [0][1][2][3][4][5][6] -->
+            <div class="box3 box mid" onclick="mid_click();">中部</div>
+            <!-- 中部 [7][8][9][10][11][12] -->
+            <div class="box4 box sorth" onclick="south_click();">南部</div>
+            <!-- 南部[13][14][15] -->
+            <div class="box5 box east" onclick="east_click();">東部</div>
+            <!-- 東部[16][17][18] -->
+            <div class="box6 box other" onclick="other_click();">離島地區</div>
+            <!-- 離島地區[19][20][21] -->
+        </div>
+    </nav>
+    <main>
+        <div class="card-region">
+            <div class="single-card">
+                <h3>城市名稱</h3>
+                <div class="card-info">
+                    <p>城市名稱：</p>
+                    <p>現在天氣：</p>
+                    <p>降雨機率：</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
